@@ -1,0 +1,33 @@
+﻿@model ScheduleApp.Models.LoginViewModel
+
+@{
+    ViewData["Title"] = "Вход";
+}
+
+<h2>Войти</h2>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert-danger">
+        @TempData["Message"]
+    </div>
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Login" method="post">
+            <div class="form-group">
+                <label asp-for="Login" class="control-label">Номер телефона</label>
+                <input asp-for="Login" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label">Пароль</label>
+                <input asp-for="Password" type="password" class="form-control" />
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary" style="margin-top: 8px;">Войти</button>
+            </div>
+        </form>
+    </div>
+</div>
+

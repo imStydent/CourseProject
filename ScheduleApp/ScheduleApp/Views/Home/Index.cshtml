@@ -1,0 +1,93 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model List<Role>
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Горизонтальный список записей</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .appointment-list {
+            display: flex;
+            list-style-type: none;
+            padding: 0;
+            margin: 0; /* Убираем все внешние отступы */
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+        }
+
+        .appointment-item {
+            flex: 1;
+            text-align: center;
+        }
+
+        .appointment-link {
+            display: block; /* Делаем ссылку блочным элементом */
+            padding: 10px; /* Добавляем внутренний отступ */
+            text-decoration: none; /* Убираем подчеркивание */
+            color: #000; /* Цвет текста */
+        }
+
+        .appointment-item:not(:last-child) {
+            border-right: 1px solid #dee2e6; /* Вертикальная линия */
+        }
+
+        .appointment-link:hover {
+            background-color: #f8f9fa; /* Фон при наведении */
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <ul class="appointment-list">
+            <li class="appointment-item">
+                <a href="#" class="appointment-link"><strong>Время</strong></a>
+            </li>
+            <li class="appointment-item">
+                <a href="#" class="appointment-link"><strong>Запись</strong></a>
+            </li>
+        </ul>
+        @foreach (var appointment in Model)
+        {
+            <ul class="appointment-list">
+                <li class="appointment-item">
+                    <a href="#" class="appointment-link">@appointment.Id</a>
+                </li>
+                <li class="appointment-item">
+                    <a href="#" class="appointment-link">@appointment.Name</a>
+                </li>
+            </ul>
+        }
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+<!--<div class="cd-schedule__events">
+    <ul>
+@* @foreach (var item in Model)
+{
+                <li class="cd-schedule__group">
+                    <div class="cd-schedule__top-info"><span>@Html.DisplayFor(modelItem => item.Date)</span></div>
+                    <ul>
+            @foreach (var order in item.Orders)
+            {
+                                <li class="cd-schedule__event">
+                                    <a data-start="@order.LoadTime" data-end="@order.UnloadTime" data-content="event-abs-circuit" data-event="event-1" href="#0">
+                                        <em class="cd-schedule__name">@Html.DisplayFor(modelItem => order.Name)</em>
+                                    </a>
+                                </li>
+
+            }
+                    </ul>
+                </li> *@
+
+}
+    </ul>
+</div>-->

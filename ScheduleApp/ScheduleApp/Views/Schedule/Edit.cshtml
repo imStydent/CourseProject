@@ -1,0 +1,71 @@
+﻿@model ScheduleApp.Models.EditOrderViewModel
+
+@{
+    ViewData["Title"] = "Редактирование заказа";
+}
+
+<div style="display: flex; align-items: baseline">
+    <h1 style="margin: 0">Редактирование заказа</h1>
+    <a style="margin-left: auto;" asp-action="Index">Вернутся к расписанию</a>
+</div>
+<hr />
+<div class="container-row">
+    <div class="list">
+        @if (Model.Order.Name != null)
+        {
+            <form asp-action="EditOrderAsync" method="post">
+                <input type="hidden" asp-for="@Model.Order.Id" value="@Model.Order.Id" />
+                <div class="form-group">
+                    <label asp-for="@Model.Order.Name" class="control-label">Название заказа:</label>
+                    <input asp-for="@Model.Order.Name" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="@Model.Order.LoadTime" class="control-label">Начало погрузки:</label>
+                    <input asp-for="@Model.Order.LoadTime" class="form-control" type="time" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="@Model.Order.UnloadTime" class="control-label">Конец погрузки:</label>
+                    <input asp-for="@Model.Order.UnloadTime" class="form-control" type="time" />
+                </div>
+                <button type="submit" class="btn btn-secondary" style="margin-top: 10px">
+                    Сохранить
+                </button>
+			</form>
+            <hr/>
+            <h4>Список продуктов в заказе:</h4>
+            <ul>
+                @foreach (var product in Model.Order.ProductsHasOrders)
+                {
+                    <form asp-action="DeleteProduct" method="post" asp-route-productId="@product.ProductsId" asp-route-orderId="@Model.Order.Id" asp-route-fromCreate="false">
+                    <li style="margin-left: 20px;">
+                        <div style="display: flex">
+                                @product.Products.Name  -  @product.Amount шт.
+                            <button type="submit" style="background: none; border: none; margin-top: -6px; margin-left: 5px">
+                                <img src=@Url.Content("~/Icons/cross.png") alt="X" />
+                            </button>
+                        </div>
+                    </li>
+                    </form>
+                }
+            </ul>
+            <hr/>
+        }
+    </div>
+    <form asp-action="AddProductToOrder" method="post">
+        <div>
+            <input type="hidden" name="orderId" value="@Model.Order.Id" />
+            <label for="ProductId" style="margin-right: 5px">Выберете продукт:</label>
+            <select id="ProductId" name="ProductId">
+                @foreach (var product in Model.Products)
+                {
+                    <option value="@product.Id">@product.Name</option>
+                }
+		    </select>
+            <label for="Amount" style="margin-right: 5px">Количество упаковок:</label>
+		    <input type="number" id="Amount" name="Amount" min="1" value="1" />
+            <div style=" margin: 5px">
+                <button type="submit" class="btn btn-secondary">Добавить товар</button>
+            </div>
+        </div>
+	</form>
+</div>

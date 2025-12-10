@@ -1,0 +1,138 @@
+﻿@model ScheduleApp.Models.OrderCreateViewModel
+
+@{
+    ViewData["Title"] = "Создание заказа";
+}
+
+<div style="display: flex; align-items: baseline">
+    <h1 style="margin: 0">Создание заказа</h1>
+    <a style="margin-left: auto;" asp-action="Index">Вернутся к расписанию</a>
+</div>
+<hr/>
+<div class="container-row">
+    <div class="list">
+        @if (Model.Name != null)
+        {
+            <h2>Дата заказа: @Model.Date.ToString("dd.MM.yyyy")</h2>
+            <h3>Название заказа: @Model.Name</h3>
+            <h3>Начало погрузки: @Model.LoadTime.ToString(@"hh\:mm")</h3>
+            <h3>Конец погрузки: @Model.UnloadTime.ToString(@"hh\:mm")</h3>
+            <h4>Список продуктов в заказе:</h4>
+            <ul>
+                @if (Model.AddProducts != null)
+                {
+                    @foreach (var product in Model.AddProducts)
+                    {
+
+                        <form asp-action="DeleteProduct" method="post" asp-route-productId="@product.Id" asp-route-fromCreate="true">
+                            <li style="margin-left: 20px;">
+                                <div style="display: flex">
+                                    @product.Name  -  @product.Amount шт.
+                                    <button type="submit" style="background: none; border: none; margin-top: -6px; margin-left: 5px">
+                                        <img src=@Url.Content("~/Icons/cross.png") alt="X" />
+                                    </button>
+                                </div>
+                            </li>
+                        </form>
+
+                    }
+                }
+            </ul>
+        }
+    </div>
+    <div class="form-container">
+        <form asp-action="AddProduct" method="post">
+            <div>
+                <label asp-for="Date" class="control-label">Дата заказа:</label>
+                <input asp-for="Date" type="date" class="form-control"/>
+			</div>
+            @if (ViewBag.ErrorMessage != null)
+			{
+				<div class="text-danger">@ViewBag.ErrorMessage</div>
+			}
+            <div class="form-group">
+                <label asp-for="Name" class="control-label">Название заказа:</label>
+                <input asp-for="Name" class="form-control" />
+            </div>
+            <div>
+                <label asp-for="LoadTime">Время начала погрузки:</label>
+                <input asp-for="LoadTime" type="time" name="LoadTime"/>
+            </div>
+            <div>
+                <label asp-for="UnloadTime">Время конца погрузки:</label>
+                <input asp-for="UnloadTime" type="time" name="UnloadTime"/>
+            </div>
+            <hr/>
+            <div >
+                <div style="display: flex;">
+                    <label for="SelectedProductId" style="margin-right: 5px">Выберете продукт:</label>
+                    <select id="SelectedProductId" name="SelectedProductId">
+                        @foreach (var product in Model.Products)
+                        {
+                            <option value="@product.Id">@product.Name</option>
+                        }
+				    </select>
+				</div>
+                <div style="display: flex; margin-top: 5px; margin-right: 5px">
+					<label for="Amount">Количество упаковок:</label>
+					<input type="number" id="Amount" name="Amount" min="1" value="1" />
+				</div>
+            </div>
+           
+            <div style=" margin: 5px">
+				<button type="submit" class="btn btn-secondary">Добавить товар</button>
+            </div>
+            
+        </form>
+        <hr/>
+        <div class="container-row" style="margin: 5px; padding: 5px">
+            <form asp-action="ClearOrder" method="post" >
+                <button class ="btn btn-danger">Сбросить заказ</button>
+            </form>
+            <form asp-action="AddOrder" method="post" style="margin-left: 10px">
+                <button type="submit" class="btn btn-primary">Создать заказ</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById('LoadTime').addEventListener('change', function() {
+        // Получаем текущее значение time input
+        var timeValue = this.value;
+        // Обрезаем секунды (если они есть)
+        this.value = timeValue.slice(0, 5); // hh:mm
+    });
+    document.getElementById('UnloadTime').addEventListener('change', function() {
+        // Получаем текущее значение time input
+        var timeValue = this.value;
+        // Обрезаем секунды (если они есть)
+        this.value = timeValue.slice(0, 5); // hh:mm
+    });
+</script>
+
+<style>
+    .container-row {
+        display: flex;
+    }
+
+    .list {
+        width: 50%; /* Ширина списка */
+        padding: 20px;
+        background-color: #f0f0f0; /* Цвет фона для списка */
+    }
+
+    .form-container {
+        width: 50%; /* Ширина формы */
+        padding: 20px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column; /* Вертикальное расположение элементов формы */
+    }
+
+    .form-group {
+        margin-bottom: 15px; /* Отступ между элементами формы */
+    }
+</style>

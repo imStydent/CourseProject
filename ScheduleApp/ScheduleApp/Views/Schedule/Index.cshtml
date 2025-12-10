@@ -1,0 +1,115 @@
+﻿@model IEnumerable<ScheduleApp.Models.LoadUnloadOperation>
+
+@{
+    ViewData["Title"] = "Расписание";
+}
+
+<head>
+    <meta charset="utf-8">
+    <title>Горизонтальный список записей</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+
+        .appointment-list {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        margin: 0; /* Убираем все внешние отступы */
+        border-radius: 5px;
+        }
+
+        .appointment-item {
+        /* flex: 1; */
+        }
+
+        .appointment-link {
+        display: block; /* Делаем ссылку блочным элементом */
+        /* padding: 10px; */ /* Добавляем внутренний отступ */
+        text-decoration: none; /* Убираем подчеркивание */
+        color: #000; /* Цвет текста */
+        }
+
+        .appointment-item:not(:last-child) {
+        border-right: 1px solid #dee2e6; /* Вертикальная линия */
+        }
+
+        .appointment-link:hover {
+        background-color: #f8f9fa; /* Фон при наведении */
+        }
+    </style>
+</head>
+
+<div style="display: flex; align-items: baseline; margin-left: 25px; margin-right: 25px">
+    <h1 style="margin: 0">Расписание на неделю</h1>
+    @if (@TempData["roleId"].ToString() != "1")
+    {
+        <a asp-action="Create" style="margin-left: auto; align-items: center;">
+            <img src=@Url.Content("~/Icons/addNew.png") alt="Добавить новый заказ" />
+        </a>
+    }
+</div>
+<hr/>
+<div class="container mt-4" style="max-width: stretch; width: 100%; justify-content: center; margin-left: -50px">
+    <ul class="appointment-list">
+        @foreach (var appointment in Model)
+        {
+            <li class="appointment-item" >
+                <div style="display: flex; margin: 5px; border-bottom: 1px solid #dee2e6; min-width: 160px">
+                    <h5>@appointment.Date.ToString("dd.MM.yyyy")</h5>
+                    @if (@TempData["roleId"].ToString() != "1")
+                    {
+                        <form asp-action="ExportAsync" method="post" style="display: inline;">
+                            <input type="hidden" name="id" value="@appointment.Id" />
+                            <button type="submit" class="btn-link" style="background: none; border: none;">
+                                <img src=@Url.Content("~/Icons/download.png") alt="Добавить новый заказ" />
+                            </button>
+                        </form>
+
+                        <form asp-action="Delete" method="post" asp-route-id="@appointment.Id" onsubmit="return confirm('Вы уверены, что хотите удалить это расписание?');">
+                            <button type="submit" class="btn-link" style="background: none; border: none;">
+                                <img src=@Url.Content("~/Icons/delete.png") alt="Удалить день" />
+                            </button>
+                        </form>
+                    }
+                </div>
+
+                <ul>
+                    @foreach (var order in appointment.Orders)
+                    {
+                        <li class="appointment-item" style="padding: 0; margin-left: 10px; margin-bottom: 25px; margin-top: 7px">
+                            <div style="padding: 0; margin: 0; display: flex">
+                                <a asp-action="Details" asp-route-id="@order.Id" class="appointment-link">
+                                    <p style="padding: 0; margin: 0; line-height: 1; margin-bottom: 5px;">
+                                        @order.LoadTime.ToString(@"hh\:mm") - @order.UnloadTime.ToString(@"hh\:mm")
+                                    </p>
+                                    @order.Name
+                                </a>
+                                @if (@TempData["roleId"].ToString() != "1")
+                                {
+                                    <a asp-action="Edit" asp-route-id="@order.Id" style="margin-left: 15px">
+                                        <img src=@Url.Content("~/Icons/edit.png") alt="Редактировать заказ" />
+                                    </a>
+                                }
+                            </div>
+                        </li>
+                            }
+                        </ul>
+                
+                    </li>
+            }
+        </ul>
+    <div style="display: flex; margin-top: 25px">
+            @if (ViewBag.CurrentPage > 1)
+            {
+            <a href="@Url.Action("Index", new { page = ViewBag.CurrentPage - 1 })" style="margin-left: 15px;">Предыдущая неделя</a>
+            }
+
+            @if (ViewBag.CurrentPage < (ViewBag.TotalCount + 6) / 7) // Количество страниц
+            {
+            <a href="@Url.Action("Index", new { page = ViewBag.CurrentPage + 1 })" style="margin-right: -95px; margin-left: auto;">Следующая неделя</a>
+            }
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

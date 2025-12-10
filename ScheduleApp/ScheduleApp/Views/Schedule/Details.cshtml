@@ -1,0 +1,52 @@
+﻿@model ScheduleApp.Models.Order
+
+@{
+    ViewData["Title"] = "Подробная информация о заказе";
+} 
+<div style="display: flex; align-items: baseline">
+    <h1 style="margin: 0">Подробности о заказе</h1>
+    <a style="margin-left: auto" asp-action="Index">Вернутся к расписанию</a>
+    @if (@TempData["roleId"].ToString() != "1")
+    {
+        <form asp-action="DeleteOrder" method="post" asp-route-id="@Model.Id" onsubmit="return confirm('Вы уверены, что хотите удалить этот заказ?');">
+            <button type="submit" class="btn-link" style="background: none; border: none;">
+                <img src=@Url.Content("~/Icons/delete.png") alt="Удалить заказ" />
+            </button>
+        </form>
+    }
+</div>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">@Html.DisplayFor(model => @model.Name)</dt>
+        <dt class="col-sm-2">Начало в: @Model.LoadTime.ToString(@"hh\:mm")</dt>
+        <dt class="col-sm-2">Конец в: @Model.UnloadTime.ToString(@"hh\:mm")</dt>
+    </dl>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Название
+        </dt>
+        <dt class="col-sm-2">
+            Тип
+        </dt>
+        <dt class="col-sm-2">
+            Количество
+        </dt>
+    </dl>
+    @foreach(var product in Model.ProductsHasOrders)
+    {
+        <dl class="row">
+            <dd class="col-sm-2">
+				@product.Products.Name
+            </dd>
+            <dd class="col-sm-2">
+                @product.Products.Kind
+            </dd>
+            <dd class="col-sm-2">
+                @product.Amount
+            </dd>
+        </dl>
+    }
+</div>

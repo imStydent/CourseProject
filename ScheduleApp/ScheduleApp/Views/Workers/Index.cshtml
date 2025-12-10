@@ -1,0 +1,174 @@
+﻿@model IEnumerable<ScheduleApp.Models.Worker>
+
+@{
+    ViewData["Title"] = "Список сотрудников";
+}
+
+<div style="display: flex; align-items: baseline">
+    <h1>Список сотрудников</h1>
+    <a asp-action="Create" style="margin-left: auto">Зарегистрировать нового сотрудника</a>
+</div>
+<div class="container">
+    @using (Html.BeginForm())
+    {
+        <div style="display: flex; align-items: center;">
+            <label for="SearchString" style="margin-right: 10px;">Найти сотрудника по фамилии:</label>
+            @Html.TextBox("SearchString", null, new { @class = "form-control", style = "width: auto; margin-right: 10px;" })
+            <input type="submit" value="Поиск" class="btn btn-secondary" style="padding: 5px 10px; font-size: 12px;">
+        </div>
+    }
+    <div class="filter-container">
+        <button class="filter-button">
+            <img src=@Url.Content("~/Icons/filter.png") alt="Фильтр" />
+        </button>
+        <div class="filter-menu">
+            <ul>
+                <li><a href="@Url.Action("Index", "Workers", new { filter = "Администратор" })">Администратор</a></li>
+                <li><a href="@Url.Action("Index", "Workers", new { filter = "Менеджер" })">Менеджер</a></li>
+                <li><a href="@Url.Action("Index", "Workers", new { filter = "Работник" })">Работник</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Фамилмя
+            </th>
+            <th>
+                @Html.ActionLink("Имя", "Index", new { sortOrder = ViewBag.NameSortParm })
+            </th>
+            <th>
+                Отчество
+            </th>
+            <th>
+                Номер телефона
+            </th>
+            <th>
+                Пароль
+            </th>
+            <th>
+                Должность
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Surname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Patronymic)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumber)
+            </td>
+            <td class="tooltip-container" style="align-content: center">
+                ********
+                <div class="tooltip">@Html.DisplayFor(modelItem => item.Password)</div>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Role.Name)
+            </td>
+            <td style="display: flex">
+                <a asp-action="Edit" asp-route-id="@item.Id" >Редактировать</a> 
+                <form asp-action="Delete" method="post" asp-route-id="@item.Id" onsubmit="return confirm('Вы уверены, что хотите удалить этого сотрудника?');">
+                    <button type="submit" class="btn-link" style="background: none; border: none;">
+                        <img src=@Url.Content("~/Icons/delete.png") alt="Удалить сотрудника" />
+                    </button>
+                </form>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<style>
+    .tooltip-container {
+        position: relative;
+    }
+
+    .tooltip {
+        visibility: hidden;
+        width: 100px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 5px;
+        padding: 8px;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%; /* Позиция над кнопкой */
+        left: 50%;
+        margin-left: -100px; /* Центрирование */
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .tooltip-container:hover .tooltip {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .container {
+        display: flex;
+    }
+    .filter-container {
+    position: relative;
+    display: inline-block; /* Для корректного позиционирования */
+    }
+
+    .filter-button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        width: 28px; /* Ширина кнопки */
+        height: 28px; /* Высота кнопки */
+        padding: 0; /* Убираем внутренние отступы */
+        margin-left: 5px;
+        display: flex; /* Для выравнивания иконки по центру */
+        align-items: center; /* Вертикальное выравнивание */
+        justify-content: center; /* Горизонтальное выравнивание */ 
+    }
+
+    .filter-menu {
+        display: none; /* Скрыть меню по умолчанию */
+        position: absolute;
+        left: 100%; /* Показать под кнопкой */
+        top: 0;
+        background-color: white;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+    }
+
+    .filter-container:hover .filter-menu {
+        display: block; /* Показать меню при наведении на контейнер */
+    }
+
+    .filter-menu ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .filter-menu li {
+        padding: 10px;
+    }
+
+    .filter-menu li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .filter-menu li:hover {
+        background-color: #f0f0f0; /* Эффект наведения */
+    }
+</style>

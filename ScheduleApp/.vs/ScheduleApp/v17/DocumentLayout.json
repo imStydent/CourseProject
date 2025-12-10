@@ -1,0 +1,661 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\scheduleapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\scheduleapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\views\\schedule\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\views\\schedule\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\models\\ordercreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\models\\ordercreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\views\\schedule\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\views\\schedule\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\controllers\\workerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\controllers\\workerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\models\\editorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\models\\editorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\views\\workers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\views\\workers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\views\\workers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\views\\workers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\views\\workers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\views\\workers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\views\\schedule\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\views\\schedule\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\views\\schedule\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\views\\schedule\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\models\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\models\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\models\\productshasorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\models\\productshasorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\models\\loadunloadoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\models\\loadunloadoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\models\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\models\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7A67187-CD78-4469-AECB-5DF7CB1DD7B5}|ScheduleApp.Test\\ScheduleApp.Test.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp.test\\workerscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7A67187-CD78-4469-AECB-5DF7CB1DD7B5}|ScheduleApp.Test\\ScheduleApp.Test.csproj|solutionrelative:scheduleapp.test\\workerscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\data\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\data\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\scheduleapp\\scheduleapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{18519DA3-8846-45AC-87CA-615B183A13AF}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ScheduleApp",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\ScheduleApp.csproj",
+              "RelativeDocumentMoniker": "ScheduleApp\\ScheduleApp.csproj",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\ScheduleApp.csproj",
+              "RelativeToolTip": "ScheduleApp\\ScheduleApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-10T20:35:34.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Models\\OrderCreateViewModel.cs",
+              "RelativeDocumentMoniker": "ScheduleApp\\Models\\OrderCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Models\\OrderCreateViewModel.cs",
+              "RelativeToolTip": "ScheduleApp\\Models\\OrderCreateViewModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T11:55:33.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Schedule\\Index.cshtml",
+              "RelativeDocumentMoniker": "ScheduleApp\\Views\\Schedule\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Schedule\\Index.cshtml",
+              "RelativeToolTip": "ScheduleApp\\Views\\Schedule\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T07:43:06.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScheduleController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Controllers\\ScheduleController.cs",
+              "RelativeDocumentMoniker": "ScheduleApp\\Controllers\\ScheduleController.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Controllers\\ScheduleController.cs",
+              "RelativeToolTip": "ScheduleApp\\Controllers\\ScheduleController.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAvwNMAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T07:37:59.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WorkersController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Controllers\\WorkersController.cs",
+              "RelativeDocumentMoniker": "ScheduleApp\\Controllers\\WorkersController.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Controllers\\WorkersController.cs",
+              "RelativeToolTip": "ScheduleApp\\Controllers\\WorkersController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAUwGgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T11:40:59.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ScheduleApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ScheduleApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T07:45:00.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ScheduleApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ScheduleApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T08:17:53.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "ScheduleApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "ScheduleApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T21:45:28.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "ScheduleApp\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "ScheduleApp\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T21:45:30.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EditOrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Models\\EditOrderViewModel.cs",
+              "RelativeDocumentMoniker": "ScheduleApp\\Models\\EditOrderViewModel.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Models\\EditOrderViewModel.cs",
+              "RelativeToolTip": "ScheduleApp\\Models\\EditOrderViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T11:24:13.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ScheduleApp\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "ScheduleApp\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T23:40:20.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ScheduleApp\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ScheduleApp\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T11:23:36.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Schedule\\Create.cshtml",
+              "RelativeDocumentMoniker": "ScheduleApp\\Views\\Schedule\\Create.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Schedule\\Create.cshtml",
+              "RelativeToolTip": "ScheduleApp\\Views\\Schedule\\Create.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwDAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T10:40:20.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ScheduleApp\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ScheduleApp\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAUwBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T11:20:45.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ScheduleApp\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "ScheduleApp\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T11:16:28.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Workers\\Create.cshtml",
+              "RelativeDocumentMoniker": "ScheduleApp\\Views\\Workers\\Create.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Workers\\Create.cshtml",
+              "RelativeToolTip": "ScheduleApp\\Views\\Workers\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T07:36:08.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Workers\\Index.cshtml",
+              "RelativeDocumentMoniker": "ScheduleApp\\Views\\Workers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Workers\\Index.cshtml",
+              "RelativeToolTip": "ScheduleApp\\Views\\Workers\\Index.cshtml",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAACYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T16:04:40.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Workers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ScheduleApp\\Views\\Workers\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Workers\\Edit.cshtml",
+              "RelativeToolTip": "ScheduleApp\\Views\\Workers\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-02T19:06:42.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Schedule\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ScheduleApp\\Views\\Schedule\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Schedule\\Edit.cshtml",
+              "RelativeToolTip": "ScheduleApp\\Views\\Schedule\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-09T10:33:24.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Schedule\\Details.cshtml",
+              "RelativeDocumentMoniker": "ScheduleApp\\Views\\Schedule\\Details.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Schedule\\Details.cshtml",
+              "RelativeToolTip": "ScheduleApp\\Views\\Schedule\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-23T21:59:25.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Models\\Worker.cs",
+              "RelativeDocumentMoniker": "ScheduleApp\\Models\\Worker.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Models\\Worker.cs",
+              "RelativeToolTip": "ScheduleApp\\Models\\Worker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T17:42:15.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Program.cs",
+              "RelativeDocumentMoniker": "ScheduleApp\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Program.cs",
+              "RelativeToolTip": "ScheduleApp\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswBAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T11:29:11.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ScheduleApp\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ScheduleApp\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-09T13:16:25.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProductsHasOrder.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Models\\ProductsHasOrder.cs",
+              "RelativeDocumentMoniker": "ScheduleApp\\Models\\ProductsHasOrder.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Models\\ProductsHasOrder.cs",
+              "RelativeToolTip": "ScheduleApp\\Models\\ProductsHasOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T11:58:48.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "ScheduleApp\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Models\\Order.cs",
+              "RelativeToolTip": "ScheduleApp\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T03:39:06.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LoadUnloadOperation.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Models\\LoadUnloadOperation.cs",
+              "RelativeDocumentMoniker": "ScheduleApp\\Models\\LoadUnloadOperation.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Models\\LoadUnloadOperation.cs",
+              "RelativeToolTip": "ScheduleApp\\Models\\LoadUnloadOperation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T03:45:04.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AddProduct.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Models\\AddProduct.cs",
+              "RelativeDocumentMoniker": "ScheduleApp\\Models\\AddProduct.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Models\\AddProduct.cs",
+              "RelativeToolTip": "ScheduleApp\\Models\\AddProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T23:11:38.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ScheduleApp\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ScheduleApp\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-08T22:12:20.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ScheduleApp\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\appsettings.Development.json",
+              "RelativeToolTip": "ScheduleApp\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-05T08:22:49.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\appsettings.json",
+              "RelativeDocumentMoniker": "ScheduleApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\appsettings.json",
+              "RelativeToolTip": "ScheduleApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-05T07:45:30.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ScheduleApp\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ScheduleApp\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T18:32:32.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ScheduleApp\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ScheduleApp\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T18:32:34.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ScheduleApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ScheduleApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T07:40:26.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "ScheduleApp\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "ScheduleApp\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-05T07:45:07.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "ScheduleApp\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "ScheduleApp\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T08:20:13.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Context.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Data\\Context.cs",
+              "RelativeDocumentMoniker": "ScheduleApp\\Data\\Context.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Data\\Context.cs",
+              "RelativeToolTip": "ScheduleApp\\Data\\Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T11:27:49.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "WorkersControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp.Test\\WorkersControllerTests.cs",
+              "RelativeDocumentMoniker": "ScheduleApp.Test\\WorkersControllerTests.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp.Test\\WorkersControllerTests.cs",
+              "RelativeToolTip": "ScheduleApp.Test\\WorkersControllerTests.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswEMAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T18:57:10.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ScheduleApp\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\Models\\Product.cs",
+              "RelativeToolTip": "ScheduleApp\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T11:58:58.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "ScheduleApp\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\ScheduleApp\\ScheduleApp\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "ScheduleApp\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-05T08:26:31.771Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
