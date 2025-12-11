@@ -46,13 +46,14 @@
                 <label asp-for="Date" class="control-label">Дата заказа:</label>
                 <input asp-for="Date" type="date" class="form-control"/>
 			</div>
-            @if (ViewBag.ErrorMessage != null)
-			{
-				<div class="text-danger">@ViewBag.ErrorMessage</div>
-			}
+            
             <div class="form-group">
                 <label asp-for="Name" class="control-label">Название заказа:</label>
                 <input asp-for="Name" class="form-control" />
+			@if (ViewBag.ErrorMessage != null)
+			{
+				<div class="text-danger">@ViewBag.ErrorMessage</div>
+			}
             </div>
             <div>
                 <label asp-for="LoadTime">Время начала погрузки:</label>
