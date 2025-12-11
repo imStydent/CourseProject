@@ -211,6 +211,12 @@ namespace ScheduleApp.Controllers
             var jsonData = TempData["OrderCreateViewModel"] as string;
             var viewModel = JsonConvert.DeserializeObject<OrderCreateViewModel>(jsonData);
 
+            if(name == null) 
+            {
+                ViewBag.ErrorMessage = "Название заказа обязательно для заполнения";
+                TempData["OrderCreateViewModel"] = JsonConvert.SerializeObject(viewModel);
+                return View("Create", viewModel);
+            }
             int lastId = _context.LoadUnloadOperations.Max(p => p.Id);
             var loadUnlodOperation = new LoadUnloadOperation { Date = viewModel.Date, Id = lastId + 1 };
             var order = new Order { Name = viewModel.Name, LoadTime = viewModel.LoadTime, UnloadTime = viewModel.UnloadTime };
